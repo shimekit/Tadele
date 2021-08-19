@@ -1,0 +1,212 @@
+body {
+    font-family: monospace;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  #wrapper {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  #wrapper {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+ #wrapper {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  #wrapper {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  #wrapper {
+    max-width: 1320px;
+  }
+}
+
+header {
+    padding: 8px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+header > h1 {
+    text-align: center;
+}
+header nav ul {
+    width: 100%;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    transition: .3s;
+}
+header nav li a:hover, header nav li a.active {
+    background-color: #fff;
+    color: #000;
+}
+
+nav ul Li {
+    margin: 5px;
+    display: inline;
+    color: red (139, 19, 19);
+}
+
+header {
+    color: white;
+    background-color: blueviolet;
+    margin-bottom: 5px;
+}
+
+a:hover {
+    background-color: yellowgreen;
+    color: green;
+}
+
+h2 {
+    color: blue;
+}
+
+    table,
+    th,
+    td {
+        border: 1px solid rgb(189, 67, 67);
+    }
+
+
+footer {
+    background-color: rgb(228, 228, 228);
+    color: #000;
+    padding:  3rem;
+    max-width: 100%;
+}
+
+.content-top {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .content-top {
+        display: block;
+    }
+  }
+
+.content-bottom {
+    background-color: rgb(36, 36, 36);
+    color: #fff;
+    padding: 1rem;
+}
+
+footer .footer-right, footer .footer-left {
+    flex: .5;
+}
+
+footer a, footer p {
+    color: #000;
+}
+
+.fa-location-arrow {
+    color: rgb(45, 156, 156);
+}
+.fa-phone {
+    color: rgb(94, 94, 94);
+}
+.fa-envelope {
+    color: rgb(252, 61, 61);
+}
+.fa-twitter {
+    color: rgb(66, 115, 250);
+}
+.fa-facebook {
+    color: rgb(30, 107, 207);
+}
+
+.contact-form {
+    padding: 3rem;
+    background-color: #ececec;
+    width: 50%;
+}
+.contact-form input, label, textarea {
+    display: block;
+    margin: .5rem;
+}
+.contact-form input, textarea {
+    padding: 1rem;
+    border: 1px solid #000;
+    width: 80%;
+}
+.contact-form button {
+    padding: 1rem 3rem;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.publition-single {
+    padding: 3rem;
+    border: 1px solid #000;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #000;
+    transition: .3s;
+    margin-bottom: 3rem;
+}
+.pub-link {
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+.publition-single:hover {
+    border-color: #6f12c7;
+    color: #6f12c7;
+}
+
+.dropdown .menu-list {
+    display: none;
+    background-color: red;
+    /*
+the following to  make my site responsive
+    */
+}
+.wrapper{
+   width: 100%; 
+}
+
+
+@media screen and (max-width: 500px) {
+    .social-link-wrap ul li {
+        font-size: 16px;
+        word-break: break-all;
+    }
+}
+pre {
+    word-break: break-all;
+}
+
+img {
+    max-width: 100%;
+}
